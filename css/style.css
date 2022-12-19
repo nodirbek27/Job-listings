@@ -269,6 +269,10 @@ a {
 
 
 @media screen and (max-width: 992px) {
+  .container {
+    padding: 0 25px;
+  }
+
   .job-listings-tags {
     width: 40%;
     flex-wrap: wrap;
@@ -280,6 +284,10 @@ a {
 }
 
 @media screen and (max-width: 840px) {
+  .container {
+    padding: 0 20px;
+  }
+
   .job-listings-item {
     display: inline-block;
     width: 100%;
@@ -298,9 +306,34 @@ a {
   }
 }
 
+/* RESPONSIVE */
+@media screen and (max-width: 750px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 700px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 650px) {
+  .container {
+    padding: 0 5px;
+  }
+}
+
 
 /* RESPONSIVE */
 @media screen and (max-width: 572px) {
+  .container {
+    padding: 0;
+  }
+
   .job-listings-item {
     position: relative;
     display: inline-block;
